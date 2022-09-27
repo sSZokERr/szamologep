@@ -22,3 +22,11 @@ document.getElementById('minus').addEventListener('click', minus);
 document.getElementById('plus').addEventListener('click', plus);
 document.getElementById('comma').addEventListener('click', comma);
 document.getElementById('equal').addEventListener('click', equal);
+
+function addOne(){
+    if(document.getElementById('text').innerHTML == "0"){
+        document.getElementById('text').innerHTML = 1;
+    }else{
+        document.getElementById('text').innerHTML += 1;
+    }
+}
