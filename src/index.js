@@ -30,3 +30,11 @@ function addOne(){
         document.getElementById('text').innerHTML += 1;
     }
 }
+
+function addTwo(){
+    if(document.getElementById('text').innerHTML == "0"){
+        document.getElementById('text').innerHTML = 2;
+    }else{
+        document.getElementById('text').innerHTML += 2;
+    }
+}
