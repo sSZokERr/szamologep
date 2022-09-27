@@ -24,3 +24,6 @@ button:hover{
 .numeros{
     background-color:rgba(0, 0, 0,0.1)
 }
+.zero{
+    width: 90px;
+}
